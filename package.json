@@ -1,11 +1,26 @@
 {
-  "name": "@clavis/liferay-loader-scss-to-css-ending",
+  "name": "@clavis/liferay-loader-scss-to-css-extension",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Marco Endres",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faragos/liferay-loader-scss-to-css-extension.git"
+  },
+  "keywords": [
+    "liferay",
+    "loader",
+    "scss",
+    "css",
+    "js"
+  ],
+  "bugs": {
+    "url": "https://github.com/faragos/liferay-loader-scss-to-css-extension/issues"
+  },
+  "homepage": "https://github.com/faragos/liferay-loader-scss-to-css-extension#readme",
+  "description": ""
 }

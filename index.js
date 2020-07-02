@@ -1,8 +1,7 @@
 module.exports = function (context) {
-  const {filePath, log} = context;
-  let {content} = context;
+  const {filePath} = context
 
-  return changeFilePathExtension(context) + filePath.
+  return changeFilePathExtension(context)
 }
 
 /**
@@ -10,9 +9,8 @@ module.exports = function (context) {
  * CSS content.
  * @param {object} context
  */
-function changeFilePathExtension(context) {
-  let {filePath} = context;
-  let {content} = context;
+function changeFilePathExtension (context) {
+  let {content} = context
 
-  return content.replace(`.scss`, `.css`);
+  return content.replace(`.scss`, `.css`)
 }
